@@ -1,0 +1,51 @@
+.container{
+    margin: 3% 0% 10% 10%;
+}
+        .panel-body{
+            width:700px;
+            border-color:brown;
+            border-radius: 5px;
+            margin:auto;
+            box-shadow: 1px 2px 4px 2px;
+        }
+        form{
+            padding-top: 10px;
+        }
+
+        h2 {
+            color: #8B0000;
+            margin-top: 10px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        h3{
+            font-style: italic;
+            margin-bottom: 40px;
+            margin-left: 35%;
+            color: #8B0000;
+        }
+        label{
+            margin-left: 30%;
+        }
+        input[type=text]{
+            margin-left: 8px;
+            padding: 3px;
+        }
+        input[type=password]{
+            margin-left: 8px;
+            padding: 3px;
+
+        }
+        .btn{
+            background-color: #8B0000;
+            margin-left: 40%;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 3%;
+        }
+        img{
+            width: 130px;
+            height: 100px;
+            margin-right: 80px;
+        }

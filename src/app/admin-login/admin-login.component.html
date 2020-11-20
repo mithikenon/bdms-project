@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="panel panel-heading">
+        <h2><img src="images/blood.png">
+            Blood Donor Management System(BDMS)
+        </h2>
+    </div>
+    <div class="panel-body">
+        <form>
+            <h3>Admin Login</h3>
+            <div class="form-group">
+                <label for="name">Username :</label>
+                <input type="text" name="text" id="name" class="form-group" required>
+                <p class="w3-text-red" >
+                    Name is required!
+                 </p>
+            </div>
+            <div class="form-group">
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password" class="form-group" required>
+                <p class="w3-text-red">
+                    Password is required!
+                </p>
+            </div>
+           <button type="submit" class="btn btn-default" routerLink="/create-new-reg" routerLinkActive="active">Log In</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

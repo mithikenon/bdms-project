@@ -1,0 +1,79 @@
+        .container{
+            margin: 3% 10% 10% 10%;
+        }
+      
+        h3{
+            color:  #8B0000;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 22px;
+        }
+        ul{
+            margin-left: 15%;
+            color: black;
+            padding-top: 20px;
+        }
+        
+        .btnSearch {
+            margin-right: 12px;
+            color: black;
+            background-color:  #8B0000;
+        }
+        .btnAllDonor {
+            margin-right: 12px;
+            color: #000;
+        }
+        .btnNewDonor {
+            margin-right: 12px;
+            color: #000;
+        }
+        .btnLogout {
+            margin-right: 12px;
+            color: #000;
+        }
+        .panel-body{
+            width:600px;
+            height: 200px;
+            border-color:brown;
+            border-radius: 5px;
+            margin:auto;
+            box-shadow: 1px 2px 4px 2px;
+        }
+
+        h4{
+            margin: 30px;
+            font-style: italic;
+        }
+        .btn{
+            color: white;
+            background: #8B0000;
+            padding: 5px 20px;
+            margin-left: 15px;
+        }
+        select{
+           margin-left: 10px;
+        }
+        label{
+            font-size: 18px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            font-weight: bold;
+        }
+        form{
+            padding-top: 10px;
+            text-align: center;
+        }
+        .panel-body a{
+            color: white;
+        }
+        
+        
+    
+       
+
+
+
+
+
+
+   

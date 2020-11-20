@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav nav-pills">
+            <li><h3>Blood Donor Management System (BDMS)</h3></li>
+            <button class="btnAllDonor"><li role="presentation"  ><a href="">All Donors</a></li></button>
+            <button class="btnNewDonor"><li role="presentation"  ><a href="">Create New Donor</a></li></button>
+            <button class="btnSearch"><li role="presentation"  ><a href="Search.html">Search Donor</a></li></button>
+            <button class="btnLogout"><li role="presentation"  ><a href="">Log out</a></li></button>
+        </ul>
+    </nav>
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h4>Update Donor Information!</h4>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">Name :</label>
+                            <input type="text" name="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">DOB:</label>
+                            <input type="date" name="dob" id="dob" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="blood-type">Blood Type :</label><br>
+                            <select name="blood-type">
+                                <option>---Select---</option>
+                                <option>A+</option>
+                                <option>B+</option>
+                                <option>AB+</option>
+                                <option>O+</option>
+                                <option>A-</option>
+                                <option>B-</option>
+                                <option>AB-</option>
+                                <option>O-</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Donation Date :</label>
+                            <input type="date" name="date" id="date" class="form-control" required>
+                        </div>
+                   </div>
+                    <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="main_phone">Main Phone :</label>
+                        <input type="number" name="phone" id="main_phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Home Phone :</label>
+                        <input type="number" name="phone" id="phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address :</label>
+                        <input type="text" name="address" id="address" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender</label><br>
+                        <input type="radio" id="male" name="gender" value="Male" checked>
+
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                    </div>
+                    </div>
+                    <button type="button" class="btn btn-default cancelBtn">Cancel</button>
+                    <button type="button" class="btn btn-default registerBtn">Save Changes</button>
+               </div>
+               </form>
+                    </div>
+                    </div>
+                    </div>
+                    </body>
+                    </html>
+                   

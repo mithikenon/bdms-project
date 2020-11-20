@@ -1,0 +1,86 @@
+.container{
+    margin: 3% 10% 10% 10%;
+}
+
+h3{
+    color:  #8B0000;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 22px;
+}
+ul{
+    margin-left: 15%;
+    color: black;
+    padding-top: 20px;
+}
+
+.btnSearch {
+    margin-right: 12px;
+    color: black;
+    
+}
+.btnAllDonor {
+    margin-right: 12px;
+    color: #000;
+    background-color:  #8B0000;
+}
+.btnNewDonor {
+    margin-right: 12px;
+    color: #000;
+}
+.btnLogout {
+    margin-right: 12px;
+    color: #000;
+}
+.panel-body{
+    width:700px;
+    height: 300px;
+    border-color:brown;
+    border-radius: 5px;
+    margin:auto;
+    box-shadow: 1px 2px 4px 2px;
+    color: black;
+    font-size: 16px;
+}
+h4{
+    text-align: center;
+    color:#8B0000 ;
+    padding-top: 12px;
+}
+
+input[type=text]{
+    margin-left: 10px;
+    padding: 3px;
+
+}
+input[type=date]{
+    margin-left: 12px;
+    padding:3px;
+}
+.label1{
+    margin-left: 35%;
+    padding-left: 2%;
+    padding-top: 5%;
+}
+.label2{
+    margin-left: 22%;
+    padding-left: 5%;
+
+}
+.btnCancel {
+    background-color: #8B0000;
+    margin-left: 40%;
+    color: white;
+    font-weight: bold;
+   
+}
+.btnAdd{
+    background-color: #8B0000;
+    color: white;
+    font-weight: bold;
+    
+    margin: 10px;
+}
+.panel-body a{
+    color: white;
+}
